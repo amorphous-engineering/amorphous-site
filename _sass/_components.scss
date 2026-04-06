@@ -1,0 +1,71 @@
+.label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $text-muted;
+  font-weight: 700;
+}
+
+// Status badges
+.status {
+  font-family: $font-mono;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px $sp-8;
+  border: 1px solid;
+  display: inline-block;
+  font-weight: 700;
+
+  &--active {
+    color: $accent-success;
+    border-color: $accent-success;
+  }
+
+  &--development {
+    color: $accent-product;
+    border-color: $accent-product;
+  }
+
+  &--planned {
+    color: $text-faint;
+    border-color: $text-faint;
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  border: 1px solid $border;
+  font-size: 13px;
+  margin-bottom: $sp-16;
+
+  th, td {
+    padding: $sp-4 $sp-8;
+    border: 1px solid $border;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: $bg-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 11px;
+    font-weight: 700;
+    color: $text-muted;
+  }
+
+  td:first-child {
+    font-weight: 700;
+  }
+}
+
+// Product link (OPAL accent)
+a.product-link {
+  color: $accent-product;
+
+  &:hover {
+    border-bottom-color: $accent-product;
+  }
+}

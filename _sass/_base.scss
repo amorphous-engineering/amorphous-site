@@ -1,0 +1,65 @@
+body {
+  font-family: $font-mono;
+  font-size: 14px;
+  line-height: 1.6;
+  color: $text;
+  background: $bg;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  margin-bottom: $sp-8;
+}
+
+h2 {
+  font-size: 13px;
+  color: $text-muted;
+  margin-top: $sp-32;
+  margin-bottom: $sp-16;
+  padding-bottom: $sp-8;
+  border-bottom: 1px solid $border;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    border-bottom-color: $accent;
+  }
+}
+
+p {
+  margin-bottom: $sp-16;
+}
+
+ul, ol {
+  margin-bottom: $sp-16;
+  padding-left: $sp-24;
+}
+
+li {
+  margin-bottom: $sp-4;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $border;
+  margin: $sp-32 0;
+}
+
+code {
+  background: $bg-tertiary;
+  border: 1px solid $border;
+  padding: 1px $sp-4;
+  font-size: 13px;
+}
+
+::selection {
+  background: $accent;
+  color: $bg;
+}

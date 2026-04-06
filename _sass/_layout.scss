@@ -1,0 +1,84 @@
+.site-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: $sp-16 $sp-24;
+}
+
+.site-header {
+  padding: $sp-24 0 $sp-16;
+  border-bottom: 1px solid $border;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.brand {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $text;
+  display: flex;
+  align-items: center;
+  gap: $sp-8;
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+.brand-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.site-nav {
+  display: flex;
+  gap: $sp-16;
+
+  a {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $text-muted;
+
+    &:hover {
+      color: $accent;
+      border-bottom: 1px solid $accent;
+    }
+  }
+}
+
+main {
+  padding: $sp-8 0 $sp-32;
+}
+
+.site-footer {
+  padding: $sp-16 0;
+  border-top: 1px solid $border;
+  font-size: 12px;
+  color: $text-faint;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .site-wrapper {
+    padding: $sp-8 $sp-16;
+  }
+
+  .site-header {
+    flex-direction: column;
+    gap: $sp-8;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    gap: $sp-4;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}

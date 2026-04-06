@@ -1,0 +1,17 @@
+title: Amorphous Engineering
+description: Tools for hardware teams.
+url: "https://amorphous.bigaouette.com"
+baseurl: ""
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

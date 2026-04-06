@@ -1,0 +1,54 @@
+// Catppuccin Latte palette
+$ctp-rosewater: #dc8a78;
+$ctp-flamingo: #dd7878;
+$ctp-pink: #ea76cb;
+$ctp-mauve: #8839ef;
+$ctp-red: #d20f39;
+$ctp-maroon: #e64553;
+$ctp-peach: #fe640b;
+$ctp-yellow: #df8e1d;
+$ctp-green: #40a02b;
+$ctp-teal: #179299;
+$ctp-sky: #04a5e5;
+$ctp-sapphire: #209fb5;
+$ctp-blue: #1e66f5;
+$ctp-lavender: #7287fd;
+$ctp-text: #4c4f69;
+$ctp-subtext1: #5c5f77;
+$ctp-subtext0: #6c6f85;
+$ctp-overlay2: #7c7f93;
+$ctp-overlay1: #8c8fa1;
+$ctp-overlay0: #9ca0b0;
+$ctp-surface2: #acb0be;
+$ctp-surface1: #bcc0cc;
+$ctp-surface0: #ccd0da;
+$ctp-crust: #dce0e8;
+$ctp-mantle: #e6e9ef;
+$ctp-base: #eff1f5;
+
+// Semantic tokens
+$bg: $ctp-base;
+$bg-secondary: $ctp-mantle;
+$bg-tertiary: $ctp-crust;
+$border: $ctp-surface1;
+$border-strong: $ctp-surface2;
+
+$text: $ctp-text;
+$text-muted: $ctp-subtext0;
+$text-faint: $ctp-overlay0;
+
+$accent: $ctp-lavender;
+$accent-product: $ctp-peach;
+$accent-success: $ctp-green;
+$accent-warn: $ctp-yellow;
+$accent-error: $ctp-red;
+
+// Spacing
+$sp-4: 4px;
+$sp-8: 8px;
+$sp-16: 16px;
+$sp-24: 24px;
+$sp-32: 32px;
+
+// Font
+$font-mono: 'JetBrains Mono', monospace;
