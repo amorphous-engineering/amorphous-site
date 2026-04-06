@@ -20,7 +20,7 @@ Amorphous Engineering is a group that builds software to make complex hardware f
   <tbody>
     <tr>
       <td><a href="#opal" class="product-link">OPAL</a></td>
-      <td><span class="status status--development">Active Development</span></td>
+      <td><span class="status status--development">Active</span></td>
       <td>Local-first ERP for small hardware teams. Parts, inventory, procedures, procurement.</td>
     </tr>
   </tbody>
