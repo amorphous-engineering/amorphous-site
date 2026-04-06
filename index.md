@@ -21,7 +21,7 @@ Amorphous Engineering is a group that builds software to make complex hardware f
     <tr>
       <td><a href="#opal" class="product-link">OPAL</a></td>
       <td><span class="status status--development">Active</span></td>
-      <td>Local-first ERP for small hardware teams. Parts, inventory, procedures, procurement.</td>
+      <td>Local-first ERP for small hardware teams.</td>
     </tr>
   </tbody>
 </table>
@@ -43,4 +43,4 @@ Modules cover parts databases, inventory tracking, versioned procedures with ste
 
 ## Contact
 
-GitHub: [amorphous-sh](https://github.com/amorphous-sh)
+GitHub: [amorphous-engineering](https://github.com/amorphous-engineering)
